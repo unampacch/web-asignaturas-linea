@@ -1,0 +1,49 @@
+.login-wrapper {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+.login-wrapper .left-container {
+  position: fixed;
+  float: left;
+  height: 100vh;
+  width: 50%;
+  padding: 10rem
+}
+.login-wrapper .right-container {
+  position: fixed;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login-wrapper .login-container {
+  width: 100%;
+  padding: 2rem;
+  height: 350px;
+  background-color: #fff;
+}
+.login-wrapper h1 {
+  color: #111;
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
