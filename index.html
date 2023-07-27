@@ -28,27 +28,27 @@
 
   <div class="login-wrapper">
 
-    <header class="masthead">
-      <div class="container inner d-lg-flex">
+    <div class="left-container d-flex flex-column">
 
-        <div class="logos-header d-flex flex-fill align-items-center">
-          <div class="logo-header-unam">
-            <a href="https://www.unam.mx/" target="_blank"><img src="img/logo-unam.svg" alt="UNAM"></a>
+      <header class="masthead mb-auto">
+        <div class="container inner d-lg-flex">
+
+          <div class="logos-header d-flex flex-fill align-items-center">
+            <div class="logo-header-unam">
+              <a href="https://www.unam.mx/" target="_blank"><img src="img/logo-unam.svg" alt="UNAM"></a>
+            </div>
+            <div class="logo-header-cch">
+              <a href="https://www.cch.unam.mx/" target="_blank"><img src="img/logo-cch.svg" alt="CCH"></a>
+            </div>
           </div>
-          <div class="logo-header-cch">
-            <a href="https://www.cch.unam.mx/" target="_blank"><img src="img/logo-cch.svg" alt="CCH"></a>
-          </div>
+
+          <nav class="nav nav-masthead justify-content-center">
+            <a class="nav-link" href="#!">ACERCA DE</a>
+            <!-- <a class="nav-link" href="#!">Créditos</a> -->
+          </nav>
         </div>
+      </header>
 
-        <nav class="nav nav-masthead justify-content-center">
-          <a class="nav-link" href="#!">ACERCA DE</a>
-          <!-- <a class="nav-link" href="#!">Créditos</a> -->
-        </nav>
-      </div>
-    </header>
-
-
-    <div class="left-container d-flex align-items-center justify-content-center">
       <div class="login-container">
         <div class="container">
           <form class="form-signin">
@@ -76,7 +76,7 @@
               </label>
             </div> -->
             <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
-            <p class="mt-5 text-muted">Ayuda para ingresar: <a class="bibliografia_link"
+            <p class="mt-auto text-muted">Ayuda para ingresar: <a class="bibliografia_link"
                 href="mailto:soportec@cch.unam.mx">soportec@cch.unam.mx</a></p>
           </form>
           <!-- <form class="">
@@ -98,7 +98,16 @@
           </form> -->
         </div>
       </div>
+
+      <footer class="mastfoot mt-auto">
+        <div class="container inner">
+          <p>2023 | Escuela Nacional Colegio de Ciencias y Humanidades | <a
+              href="https://portalacademico.cch.unam.mx/">Portal Académico</a></p>
+        </div>
+      </footer>
+
     </div>
+
     <div class="right-container">
       <div class="container">
         <div class="row">
@@ -109,12 +118,14 @@
       </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-      crossorigin="anonymous"></script>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

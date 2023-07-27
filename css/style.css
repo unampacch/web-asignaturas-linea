@@ -25,9 +25,8 @@ body {
   margin-left: 1.875rem;
 }
 
-.masthead {
-  width: 50%;
-  position: fixed;
+.masthead, .mastfoot {
+  position: relative;
   z-index: 999;
   padding: 1.5rem 10rem;
 }
@@ -56,6 +55,10 @@ body {
 .nav-masthead .active {
   color: rgb(17, 17, 17);
   border-bottom-color: #111;
+}
+
+.mastfoot {
+ position: relative;
 }
 
 @media (max-width: 991px) {
@@ -105,8 +108,10 @@ body {
 
 .login-wrapper .login-container {
   width: 100%;
-  /* padding: 2rem;
-  height: 350px; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   background-color: #f1f1f1;
   padding: 10rem
 }
