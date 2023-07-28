@@ -86,8 +86,7 @@ a:hover {
   background-color: transparent;
 }
 
-.nav-masthead .nav-link:hover,
-.nav-masthead .nav-link:focus {
+.nav-masthead .nav-link:hover {
   color: rgba(24, 138, 138, .5);
 }
 
@@ -167,6 +166,21 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.modal-backdrop {
+  background-color: rgb(24, 138, 138);
+}
+
+.modal-backdrop.show {
+    opacity: .85;
+}
+
+.modal-title {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+  color: #188a8a;
+  font-weight: 700;
 }
 
 @media (min-width: 768px) {
